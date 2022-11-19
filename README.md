@@ -1,6 +1,8 @@
 # SPA
 
- SPA is a site that give to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+ Spa is a website that helps people learn a little more about the massage's benefits in Dublin and get in touch with the SPA if they are interested in the service offered by the SPA.
+
+ Among the sections of the SPA website, it is possible to view images that refer to the massage services, as well as information to get in touch and what the SPA is.
 
 ![Responsice Mockup](https://)
 
@@ -17,12 +19,12 @@ Features existed int the project
 
 ![Nav Bar](https://)
 
-- __The landing page image__
+- __The home page image__
 
   -  
   - 
 
-![Landing Page](https://)
+![Home Section](https://)
 
 - __Club Ethos Section__
 
