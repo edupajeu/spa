@@ -1,0 +1,104 @@
+
+/* Google Fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&display=swap');
+
+/* General css rule */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    color: #3a52a4;
+    
+}
+
+/* SPA headings and logo */
+
+h1{
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:  #ee835f; 
+}
+
+#logo-spa{
+    float: left;
+    font-size: 300%;
+    margin-left: 25px;
+    text-shadow: 2px 2px #3a52a4;
+}
+
+/* SPA navigation links*/
+
+#bg-header{
+    background-color: rgba(238, 131, 95, 0.205);
+    height: 87px;
+}
+
+#nav-link-list, #logo-spa{
+    line-height: 87px;
+}
+
+#nav-link-list{
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#nav-link-list li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-link-list a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+}
+
+#nav-link-list a:hover{
+    border-bottom: 1px solid #ee835f;
+}
+
+/* SPA sections */
+#home{
+    height: 613px;
+    width: 100%;
+    background: url(../images/home-spa.jpeg) no-repeat center center;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.home-greeting{
+    text-align: center;
+    font-size: 174%;
+    letter-spacing: 4px;
+    width: 450px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(241, 109, 107, 0.35);
+    bottom: 73px;
+    right: 190px;
+    position: absolute;
+    text-shadow: 2px 2px #ee835f;
+    border-radius: 120px 50px;
+}
+
+.home-greeting p{
+    padding-top: 20px;
+}
+ 
+/* #aboutus{
+    height: 700px;
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+} */
