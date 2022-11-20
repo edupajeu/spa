@@ -1,5 +1,5 @@
 
-/* Google Fonts import*/
+/* Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&display=swap');
 
 /* General css rule */
@@ -65,7 +65,7 @@ h1{
 
 /* SPA sections */
 #home{
-    height: 613px;
+    height: 677px;
     width: 100%;
     background: url(../images/home-spa.jpeg) no-repeat center center;
     overflow: hidden;
@@ -94,11 +94,11 @@ h1{
     padding-top: 20px;
 }
  
-/* #aboutus{
-    height: 700px;
+#aboutus{
+    height: 764px;
     background-color: red;
     width: 100%;
     overflow: hidden;
 
     position: relative;
-} */
+}
