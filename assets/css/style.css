@@ -7,11 +7,15 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;   /* Keep the size of shapes */
 }
 
 body{
     font-family: Inter, sans-serif;
     color: #3a52a4;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -89,13 +93,13 @@ h2{
 
 .home-greeting{
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     width: 450px;
     height: 200px;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgba(241, 109, 107, 0.35);
+    background-color: rgba(238, 131, 95, 0.7);
     bottom: 73px;
     right: 190px;
     position: absolute;
@@ -111,25 +115,23 @@ h2{
 
 #aboutus p{
     font-size: 150%;
-}
-
-#aboutus-image{
-    height: 100vh;
-    width: 100%;
-    background: url(../images/aboutus-image.jpeg)  no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-
-    position: relative;
+    line-height: 30px;
+    padding: 10px;
 }
 
 .aboutus-summary {
     padding: 15px 0;
     margin: 0;
     text-align: center;
+    /* height: 200px; */
+    width: 800px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutus-box {
+    width: 650px;
 }
 
 hr {
@@ -141,40 +143,40 @@ hr {
 h3{
     font-family: Inter, sans-serif;
     font-size: 200%;
+    text-align: center;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color:  #3a52a4; 
-    text-shadow: 3px 3px #ee835f;
+    /* color:  #3a52a4;  */
     padding: 10px;
 }
 
-p{
- padding: 10px;
-}
-
 .aboutus-individual {
-    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin: 33px;
-    background-color: rgba(241, 109, 107, 0.6);
+    background-color: #ee835f;
 }
 
 .aboutus-peaceful {
-    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin: 33px;
-    background-color: rgba(58, 83, 164, 0.6);
+    background-color: #3a52a4;
+    color: #ee835f;
+}
+
+.aboutus-peaceful hr {
+    border-top: 3px solid #ee835f;
+    width: 100%;
+    margin: 7px 0;
 }
 
 .aboutus-experience {
-    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin: 33px;
-    background-color: rgba(241, 109, 107, 0.6);
+    background-color: #ee835f;
 }
