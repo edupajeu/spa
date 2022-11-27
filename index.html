@@ -7,7 +7,7 @@
     <meta name="description" content="SPA is the best place for who loves massage in Dublin, Ireland">
     <meta name="keywords" content="spa, massage, relax, ireland, dublin">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">     <!--  Path reference to CSS file -->
     <title>SPA</title>
 </head>
 <body>
@@ -32,7 +32,7 @@
         </div>
     </header>
     <section id="home">
-        <div id="home-image">
+        <div class="home-image">
             <div class="home-greeting">
                 <h2> Welcome to SPA!</h2>
                 <p>Your best place to relax in Dublin</p>
@@ -40,7 +40,6 @@
         </div>
     </section>
     <section id="aboutus">
-        <div id="aboutus-image" class="">
             <div class="aboutus-summary">
                 <h2>About us</h2>
                 <p> 
@@ -77,11 +76,31 @@
                     searching for your balance and relaxation.
                 </p>
             </div>
-
-        </div>
     </section>
-    <section>
-        Contact
+    <section id="contact">
+        <form method="POST" action="https://contact.spa.ie" class="contact-form">
+                <H3>Drop a message to us!</H3>
+                <label for=""> Name </label>
+                <input type="text" name="name" class="input-ct-form" placeholder="Enter your name" maxlength="100" required>
+                <label for="">Email</label>
+                <input type="email" name="email" id="" class="input-ct-form" placeholder="Enter your email" maxlength="250" required>
+                <label for=""> Phone </label>
+                <input type="tel" name="phone" id="" class="input-ct-form" placeholder="Enter your phone number" maxlength="50" required>
+                <label for="">Address</label>
+                <input type="text" name="address" class="input-ct-form" placeholder="Enter your address" maxlength="250" >
+
+                <label for="thai">Thai</label>
+                <input type="checkbox" id="thai" name="massage_preference" value="thai" required>
+                <label for="relaxing">Relaxing</label>
+                <input type="checkbox" id="relaxing" name="massage_preference" value="relaxing" required>
+                <label for="deeptissue">Deep Tissue</label>
+                <input type="checkbox" id="deeptissue" name="massage_preference" value="deeptissue" required>
+
+                <label for="">Message</label>
+                <textarea type="text" placeholder="Type your message here!"></textarea>
+
+                <input type="submit" class="contact-bt" value="Contact Us!" >
+            </form>
     </section>
     <footer>
         Footer
