@@ -57,7 +57,7 @@ h2{
 }
 
 #nav-link-list{
-    font-size: 100%;
+    font-size: 150%;
     letter-spacing: 2px;
 }
 
@@ -195,7 +195,7 @@ h3{
 .contact-form {
     margin: 150px 10% 0 300px;
     color: #fafafa;
-    background-color: rgba(238, 131, 95, 0.659);
+    background-color: rgba(238, 131, 95, 0.7);
     max-width: 600px;
     position: absolute;
     left: 10%;
@@ -219,7 +219,7 @@ h3{
 }
 
 .input-ct-form:hover {
-    border: 2px solid #3a52a4;
+    border: 2px solid #ee835f;
 }
 
 .contact-bt{
@@ -250,8 +250,8 @@ h3{
     border-radius: 2px;
 }
 
-.input-ct-form:hover {
-    border: 2px solid #3a52a4;
+.message-form:hover {
+    border: 2px solid #ee835f;
 }
 
 .contact-image {
@@ -260,4 +260,38 @@ h3{
     border-radius: 120px 50px;
     padding: 25px;
     margin-top: 50px;
+}
+
+/* Footer SPA */
+
+footer {
+    height: 200px;
+    background-color: rgba(238, 131, 95, 0.205);
+
+}
+
+footer > p {
+    text-align: center;
+    display: inline-block;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+.footer-social-info {
+    text-align: center;
+}
+
+.footer-social-info > li {
+    display: inline;
+}
+
+.footer-social-info i {
+    font-size: 75px;
+    margin-top: 10px;
+    padding: 15px;
+    color: #3a52a4;
+}
+
+.fa-square-facebook {
+    color: #ee835f !important;
 }
