@@ -19,13 +19,13 @@
             <nav>
                 <ul id="nav-link-list">
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li>
                         <a href="#aboutus">About us</a>
                     </li>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                 </ul>
             </nav>
@@ -80,25 +80,26 @@
     <section id="contact">
         <form method="POST" action="https://contact.spa.ie" class="contact-form">
                 <h3>Drop a message to us!</h3>
-                <label for=""> Name </label>
-                <input type="text" name="name" class="input-ct-form" placeholder="Enter your name" maxlength="100" required>
-                <label for="">Email</label>
-                <input type="email" name="email" id="" class="input-ct-form" placeholder="Enter your email" maxlength="250" required>
-                <label for=""> Phone </label>
-                <input type="tel" name="phone" id="" class="input-ct-form" placeholder="Enter your phone number" maxlength="50" required>
-                <label for="">Address</label>
-                <input type="text" name="address" class="input-ct-form" placeholder="Enter your address" maxlength="250" >
+                <label for="name"> Name </label>
+                <input type="text" name="name" id="name" class="input-ct-form" placeholder="Enter your name" maxlength="100" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="input-ct-form" placeholder="Enter your email" maxlength="250" required>
+                <label for="phone"> Phone </label>
+                <input type="tel" name="phone" id="phone" class="input-ct-form" placeholder="Enter your phone number" maxlength="50" required>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="input-ct-form" placeholder="Enter your address" maxlength="250" >
+                
+                <div class="type-massage">
+                    <label for="thai">Thai</label>
+                    <input type="checkbox" id="thai" name="massage_preference" value="thai" required>
+                    <label for="relaxing">Relaxing</label>
+                    <input type="checkbox" id="relaxing" name="massage_preference" value="relaxing" required>
+                    <label for="deeptissue">Deep Tissue</label>
+                    <input type="checkbox" id="deeptissue" name="massage_preference" value="deeptissue" required>
+                </div>
 
-                <label for="thai">Thai</label>
-                <input type="checkbox" id="thai" name="massage_preference" value="thai" required>
-                <label for="relaxing">Relaxing</label>
-                <input type="checkbox" id="relaxing" name="massage_preference" value="relaxing" required>
-                <label for="deeptissue">Deep Tissue</label>
-                <input type="checkbox" id="deeptissue" name="massage_preference" value="deeptissue" required>
-                </br>
-                </br>
                 <label for="message-form">Message</label>
-                <textarea type="text" id="message-form" class="message-form" placeholder="Type your message here!"></textarea>
+                <textarea id="message-form" class="message-form" placeholder="Type your message here!"></textarea>
 
                 <input type="submit" class="contact-bt" value="Contact Us!" >
             </form>
